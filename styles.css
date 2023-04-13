@@ -60,6 +60,15 @@ li {
     font-size: 18px;
     color: #e5e7eb;
 }
+.hero-content img {
+    width: 100px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-self: center;
+}
+.hero-content {
+    display: flex;
+}
 
 .footer {
     color: #e5e7eb;
