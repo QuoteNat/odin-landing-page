@@ -63,6 +63,7 @@ li {
 .hero p {
     font-size: 18px;
     color: #e5e7eb;
+    align-items: center;
 }
 .hero-content img {
     width: 100px;
@@ -76,6 +77,7 @@ li {
 
 .footer {
     color: #e5e7eb;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 0;
