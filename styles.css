@@ -49,6 +49,14 @@ button, .sign-up {
     color: #1f2937
 }
 
+.card img {
+    border: solid;
+    border-color: #3883f6;
+    border-radius: 3px;
+    width: 100px;
+    height: auto;
+}
+
 .quote-container {
     background-color: #e5e7eb;
 }
