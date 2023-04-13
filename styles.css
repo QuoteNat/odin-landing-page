@@ -2,6 +2,23 @@
     font-family:'Courier New', Courier, monospace;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
 .hero, .footer {
     background-color: #1F2937;    
 }
@@ -13,6 +30,15 @@
 
 ul {
     list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+}
+
+li {
+    padding: 0;
+    margin: 0;
 }
 
 .logo, .main {
@@ -23,6 +49,7 @@ ul {
 
 .logo {
     font-size: 24px;
+    margin-right: auto;
 }
 
 .main {
