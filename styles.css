@@ -88,12 +88,25 @@ button, .sign-up {
     color: #f9faf8;
 }
 
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sign-up button {
+    border: solid;
+    border-color: #f9faf8;
+}
+
 .sign-up {
     margin: 70px;
     padding: 20px;
     border-radius: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     flex-grow: 1;
 
 }
