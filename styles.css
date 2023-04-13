@@ -38,6 +38,23 @@ ul {
     color: #e5e7eb;
 }
 
-button {
+button, .sign-up {
     background-color: #3883f6;
+    color: #f9faf8;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quotee {
+    font-weight: bold;
+    text-align: right;
 }
